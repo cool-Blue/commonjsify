@@ -2,13 +2,10 @@
   "name": "commonjsify",
   "version": "0.1.4",
   "description": "Browserify transform for non CommonJS libraries/scripts.",
-  "author": {
-    "name": "Ariel Schiavoni",
-    "email": "arielschiavoni@gmail.com"
-  },
+  "author": "Ariel Schiavoni <arielschiavoni@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/arielschiavoni/commonjsify.git"
+    "url": "git+https://github.com/arielschiavoni/commonjsify.git"
   },
   "bugs": {
     "url": "https://github.com/arielschiavoni/commonjsify/issues"
@@ -29,6 +26,7 @@
     "test-debug": "NODE_ENV=test node-debug --no-preload --no-debug-brk gulp test"
   },
   "dependencies": {
+    "fs-extra": "^0.30.0",
     "through": "^2.3.6"
   },
   "devDependencies": {
